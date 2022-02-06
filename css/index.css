@@ -334,6 +334,8 @@ input:focus, textarea:focus, select:focus
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
+   -webkit-animation: animate-fade-in-up 1000ms linear 0ms 1 normal both;
+   animation: animate-fade-in-up 1000ms linear 0ms 1 normal both;
 }
 #rolloverLayoutGrid
 {
